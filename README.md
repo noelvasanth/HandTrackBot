@@ -17,9 +17,11 @@ There are three motor cables connected to Driver locations 0, 1 and 2. The arm s
 To setup the Robot Arm itself, follow this [tutorial](https://youtu.be/GRNKYtz0jxQ).
 
 ### Software Setup
-Install the required libraries:
-'''
+Install the required libraries on the Pi:
+```
+python==3.7.3
 numpy
 tensorflow==1.14.0
 cv2
-'''
+```
+
