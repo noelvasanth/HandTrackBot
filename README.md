@@ -34,9 +34,8 @@ Our algorithm builds on the [hand detection code](https://github.com/victordibia
 $!git clone https://github.com/victordibia/handtracking.git
 $cd ./handtracking/
 ```
- 
+ The [<i>run.py</i>](https://github.com/noelvasanth/HandTrackBot/blob/main/run.py) and [<i>PCA9685.py</i>](https://github.com/noelvasanth/HandTrackBot/blob/main/PCA9685.py) of this git repo must be downloaded and included in the handtracking directory such that their respective paths are "./handtracking/run.py" and "./handtracking/PCA9685.py". Finally, the arm can be executed as follows.
 ```
 $python3 run.py
 ```
-
 
