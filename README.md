@@ -15,13 +15,22 @@ The Raspberry Pi setup is shown below:
 There are three motor cables connected to Driver locations 0, 1 and 2. The arm setup is shown below. Motor 0 (bottom-most motor) is connected to location 0, Motor 1 (middle motor) is connected to location 1, and Motor 2 (top-most motor with camera & torch attachment) is connected to the location 2.
 ![Robot arm Setup](/images/arm_setup.png)
 To setup the Robot Arm itself, follow this [tutorial](https://youtu.be/GRNKYtz0jxQ).
+Finally, the camera and Torch light were stuck to the arm.
+![Light and Camera Setup](/images/light_cam_setup.png)
 
 ### Software Setup
-Install the required libraries on the Pi:
+- Install python3 on the Pi (used python3.7.3).
+- Enable the Camera in Pi Accessories.
+- Install the required libraries on the Pi: (Note - installing tensorflow on the Pi is tricky, make sure the PYTHONPATH contains the path to the pip install location for python3).
 ```
-python==3.7.3
 numpy
 tensorflow==1.14.0
 cv2
 ```
+
+### Execution
+```
+$python3 run.py
+```
+
 
