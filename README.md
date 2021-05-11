@@ -10,3 +10,5 @@ Hand tracking robot arm built with a Raspberry Pi. Demo of the working model at 
 6. [Camera Module](https://www.amazon.nl/Raspberry-Pi-RPI-CAM-V2-standaard-cameramodules/dp/B01ER2SKFS/ref=asc_df_B01ER2SKFS/?tag=nlshogostdde-21&linkCode=df0&hvadid=430579159351&hvpos=&hvnetw=g&hvrand=8058710735012825003&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1010740&hvtargid=pla-406302832745&psc=1) for the Raspberry Pi 
 
 ### Hardware Setup
+The Raspberry Pi setup is shown below: 
+![Raspberry Pi Setup](/images/pi_setup.png)
