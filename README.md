@@ -34,8 +34,19 @@ Our algorithm builds on the [hand detection code](https://github.com/victordibia
 $!git clone https://github.com/victordibia/handtracking.git
 $cd ./handtracking/
 ```
- The [<i>run.py</i>](https://github.com/noelvasanth/HandTrackBot/blob/main/run.py) and [<i>PCA9685.py</i>](https://github.com/noelvasanth/HandTrackBot/blob/main/PCA9685.py) of this git repo must be downloaded and included in the handtracking directory such that their respective paths are "./handtracking/run.py" and "./handtracking/PCA9685.py". Finally, the arm can be executed as follows.
+
+The [<i>run.py</i>](https://github.com/noelvasanth/HandTrackBot/blob/main/run.py) and [<i>PCA9685.py</i>](https://github.com/noelvasanth/HandTrackBot/blob/main/PCA9685.py) of this git repo must be downloaded and included in the handtracking directory such that their respective paths are "./handtracking/run.py" and "./handtracking/PCA9685.py". Finally, the arm can be executed as follows.
 ```
 $python3 run.py
 ```
+Our code relies on the [hand detection code of <i>victordibia</i>](https://github.com/victordibia/handtracking.git) for the following:
+1. Mutlithreading (Rpi 3B is able to multithread upto 2 workers with the robot arm load).
+2. Hand detection
+3. Bounding Box for the detected hand
 
+Our code includes the following additions:
+1. Hand Center calculations
+2. Addition of center to the video feed
+3. Calculating distance and direction to move towards
+4. PWM conversions 
+5. Motor initializations and motion via PWM.
