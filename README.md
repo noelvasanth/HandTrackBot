@@ -12,3 +12,5 @@ Hand tracking robot arm built with a Raspberry Pi. Demo of the working model at 
 ### Hardware Setup
 The Raspberry Pi setup is shown below: 
 ![Raspberry Pi Setup](/images/pi_setup.png)
+There are three motor cables connected to Driver locations 0, 1 and 2. The arm setup is shown below. Motor 0 (bottom-most motor) is connected to location 0, Motor 1 (middle motor) is connected to location 1, and Motor 2 (top-most motor with camera & torch attachment) is connected to the location 2.
+![Robot arm Setup](/images/arm_setup.png)
