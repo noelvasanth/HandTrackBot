@@ -50,3 +50,7 @@ Our code includes the following additions:
 3. Calculating distance and direction to move towards
 4. PWM conversions 
 5. Motor initializations and motion via PWM.
+
+
+### References
+[1] A Library For Prototyping Real-time Hand Tracking Interface using Convolutional Neural Networks https://github.com/victordibia/handtracking#citing-this-tutorial - Victor Debia.
