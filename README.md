@@ -29,6 +29,12 @@ cv2
 ```
 
 ### Execution
+Our algorithm builds on the [hand detection code](https://github.com/victordibia/handtracking.git) of [twitter: @vykthur](https://twitter.com/vykthur). The code is cloned below. The handtracking code returns a bounding box over the hands, which we use to calculate the center (red dot at the center of the bounding box). The difference in centers between successive frames is used to calculate the direction of changes and amount to be changed in that direction. These are converted to Pulse Width Modulation changes and are set to the motors to follow the detected hand. For the robot to follow a hand, the [<i>run.py</i>]() and [<i>PCA9685.py</i>]() files need to be in the below cloned directory. Hence we change the directory to "./handtracking/".
+```
+$!git clone https://github.com/victordibia/handtracking.git
+$cd ./handtracking/
+```
+ 
 ```
 $python3 run.py
 ```
